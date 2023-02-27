@@ -11,5 +11,5 @@ app.use((req, res, next) => {
   res.send("<h1>PAGE NOT FOUNT</h1>");
 })
 
-
+//deneme
 app.listen(7070);
