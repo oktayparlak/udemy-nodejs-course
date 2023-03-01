@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static('public'));
 
 app.use('/admin', adminRoutes);
-app.use(shopRoutes);
+app.use( shopRoutes);
 
 app.use('*', errorController.get404);
 
